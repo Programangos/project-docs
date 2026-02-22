@@ -4,12 +4,12 @@
 
 ## Pregunta 1 – Reflexión individual
 
-### Nombre del integrante 1
-- **Rol que me gustaría desempeñar en un equipo de software:** 
-- **Fortalezas personales que aporto al equipo:**
-- **Aspectos que debo fortalecer o mejorar:**
+### Nombre del integrante 1: ALBARRACIN CRUZ CARLOS DANIEL
+- **Rol que me gustaría desempeñar en un equipo de software:** Me gustaria ser alguien que se encargue de lo relacionado con la parte visual del desarollo.
+- **Fortalezas personales que aporto al equipo:** Soy una persona paciente, con buena dispocision para el trabajo en equipo y ademas soy responsable con las entregas.
+- **Aspectos que debo fortalecer o mejorar:** Debo mejorar mis estrategias de aprendizaje, metodos que me ayuden a comprender de mejor manera, para poder aprender con mayor rapidez y profundidad.
 
-### Nombre del integrante 2
+### Nombre del integrante 2: 
 - **Rol que me gustaría desempeñar en un equipo de software:**
 - **Fortalezas personales que aporto al equipo:**
 - **Aspectos que debo fortalecer o mejorar:**
