@@ -19,10 +19,10 @@
 - **Fortalezas personales que aporto al equipo:**
 - **Aspectos que debo fortalecer o mejorar:**
 
-### Nombre del integrante 4
-- **Rol que me gustaría desempeñar en un equipo de software:**
-- **Fortalezas personales que aporto al equipo:**
-- **Aspectos que debo fortalecer o mejorar:**
+### Nombre del integrante 4: YAYA GARCÍA JHOAN SEBASTÍAN 
+- **Rol que me gustaría desempeñar en un equipo de software:Me gustaría ser quien se enfoca en pruebas y calidad en el proyecto**
+- **Fortalezas personales que aporto al equipo:Trabajo bien en equipo, cumplo mis tareas y soy crítico con mi trabajo**
+- **Aspectos que debo fortalecer o mejorar: Debo mejorar mi manejo de tiempo, organización y también en el apartado de técnica y herramientas de desarrollo.**
 
 ---
 
