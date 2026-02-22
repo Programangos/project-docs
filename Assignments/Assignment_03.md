@@ -32,8 +32,12 @@
 
 ## Pregunta 2 – Compromisos del grupo
 
-- Uso del tablero (Scrum / Kanban):
-- Frecuencia de reuniones o sincronizaciones:
-- Reglas para uso de Git y GitHub:
-- Manejo de incumplimientos o bloqueos:
-- Forma de toma de decisiones en el equipo:
+- Uso del tablero (Scrum / Kanban): El equipo combinará elementos de Scrum y Kanban. Utilizaremos un tablero Kanban para visualizar las tareas en columnas como “Pendiente”, “En progreso” y “Finalizado”, permitiendo un seguimiento claro del estado del proyecto. Además, trabajaremos con ciclos de trabajo (sprints) de 1 a 2 semanas, al finalizar los cuales revisaremos avances y ajustaremos prioridades, siguiendo la estructura de Scrum.
+
+- Frecuencia de reuniones o sincronizaciones: Nos reuniremos una vez por semana en Discord, los sábados en la noche, con una duración aproximada de 30 minutos. En estas reuniones revisaremos el progreso de cada integrante, los avances del sprint y posibles bloqueos o dificultades.
+
+- Reglas para uso de Git y GitHub: Cada modificación relevante en la aplicación deberá realizarse en una rama independiente con la estructura <usuario>/<feature>, creada a partir de la rama principal. No se realizarán cambios directamente sobre `main`. Todos los cambios deberán integrarse mediante Pull Requests, los cuales serán revisados por al menos un integrante del equipo antes de hacer merge. Los merges se realizarán únicamente a través de GitHub para mantener un historial claro y ordenado. Todos los commits deberán ser comentados bajo la estructura <tipo>:<descripción_corta> (tipo: [feat, fix, refactor, docs, test]).
+
+- Manejo de incumplimientos o bloqueos: Si algún integrante no puede cumplir con la tarea asignada dentro del plazo establecido, deberá informarlo durante la reunión semanal, explicando las razones y el estado actual del trabajo. En conjunto, el equipo decidirá si se reasigna la tarea a otro integrante o si se ajustan los plazos.
+
+- Forma de toma de decisiones en el equipo: Las decisiones técnicas y organizativas se tomarán por consenso durante las reuniones semanales. Cada integrante tendrá la oportunidad de presentar sus ideas y argumentos, y se buscará llegar a un acuerdo común.
