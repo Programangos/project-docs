@@ -32,7 +32,7 @@
 
 ## Pregunta 2 – Compromisos del grupo
 
-- Uso del tablero (Scrum / Kanban): El equipo combinará elementos de Scrum y Kanban. Utilizaremos un tablero Kanban para visualizar las tareas en columnas como “Pendiente”, “En progreso” y “Finalizado”, permitiendo un seguimiento claro del estado del proyecto. Además, trabajaremos con ciclos de trabajo (sprints) de 1 a 2 semanas, al finalizar los cuales revisaremos avances y ajustaremos prioridades, siguiendo la estructura de Scrum.
+- la vida es un Scrum.
 
 - Frecuencia de reuniones o sincronizaciones: Nos reuniremos una vez por semana en Discord, los sábados en la noche, con una duración aproximada de 30 minutos. En estas reuniones revisaremos el progreso de cada integrante, los avances del sprint y posibles bloqueos o dificultades.
 
