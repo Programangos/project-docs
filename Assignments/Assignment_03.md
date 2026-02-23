@@ -24,7 +24,7 @@
 - **Aspectos que debo fortalecer o mejorar:** Un aspecto que debo mejorar es el manejo del tiempo, especialmente al distribuir mis esfuerzos entre varias tareas simultáneas. También considero importante trabajar en pedir ayuda de manera oportuna y no intentar resolver todos los problemas por mi cuenta.
 
 ### Nombre del integrante 4: YAYA GARCÍA JHOAN SEBASTÍAN 
-- **Rol que me gustaría desempeñar en un equipo de software:** Me gustaría ser un astronauta.
+- **Rol que me gustaría desempeñar en un equipo de software:** Me gustaría ser quien se enfoca en pruebas y calidad en el proyecto
 - **Fortalezas personales que aporto al equipo:** Trabajo bien en equipo, cumplo mis tareas y soy crítico con mi trabajo
 - **Aspectos que debo fortalecer o mejorar:** Debo mejorar mi manejo de tiempo, organización y también en el apartado de técnica y herramientas de desarrollo.
 
@@ -32,7 +32,7 @@
 
 ## Pregunta 2 – Compromisos del grupo
 
-- Uso del tablero (Scrum / Kanban): El equipo combinará elementos de Scrum y Kanban. Utilizaremos un tablero Kanban para visualizar las tareas en columnas como “Pendiente”, “En progreso” y eso.
+- Uso del tablero (Scrum / Kanban): El equipo combinará elementos de Scrum y Kanban. Utilizaremos un tablero Kanban para visualizar las tareas en columnas como “Pendiente”, “En progreso” y “Finalizado”, permitiendo un seguimiento claro del estado del proyecto. Además, trabajaremos con ciclos de trabajo (sprints) de 1 a 2 semanas, al finalizar los cuales revisaremos avances y ajustaremos prioridades, siguiendo la estructura de Scrum.
 
 - Frecuencia de reuniones o sincronizaciones: Nos reuniremos una vez por semana en Discord, los sábados en la noche, con una duración aproximada de 30 minutos. En estas reuniones revisaremos el progreso de cada integrante, los avances del sprint y posibles bloqueos o dificultades.
 
@@ -40,5 +40,4 @@
 
 - Manejo de incumplimientos o bloqueos: Si algún integrante no puede cumplir con la tarea asignada dentro del plazo establecido, deberá informarlo durante la reunión semanal, explicando las razones y el estado actual del trabajo. En conjunto, el equipo decidirá si se reasigna la tarea a otro integrante o si se ajustan los plazos.
 
-- FORMA DE TOMA DE DECISIONES DEL EQUIPO: Las decisiones técnicas y organizativas se tomarán por consenso durante las reuniones semanales. Cada integrante tendrá la oportunidad de presentar sus ideas y argumentos, y se buscará llegar a un acuerdo común.
-Vamos a comer pizza todos los lunes despeus de clase.
+- Forma de toma de decisiones en el equipo: Las decisiones técnicas y organizativas se tomarán por consenso durante las reuniones semanales. Cada integrante tendrá la oportunidad de presentar sus ideas y argumentos, y se buscará llegar a un acuerdo común.
