@@ -40,4 +40,4 @@
 
 - Manejo de incumplimientos o bloqueos: Si algún integrante no puede cumplir con la tarea asignada dentro del plazo establecido, deberá informarlo durante la reunión semanal, explicando las razones y el estado actual del trabajo. En conjunto, el equipo decidirá si se reasigna la tarea a otro integrante o si se ajustan los plazos.
 
-- Forma de toma de decisiones en el equipo: Las decisiones técnicas y organizativas se tomarán por consenso durante las reuniones semanales. Cada integrante tendrá la oportunidad de presentar sus ideas y argumentos, y se buscará llegar a un acuerdo común.
+- FORMA DE TOMA DE DECISIONES DEL EQUIPO: Las decisiones técnicas y organizativas se tomarán por consenso durante las reuniones semanales. Cada integrante tendrá la oportunidad de presentar sus ideas y argumentos, y se buscará llegar a un acuerdo común.conflicto maker
