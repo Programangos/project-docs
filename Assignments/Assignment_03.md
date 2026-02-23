@@ -24,7 +24,7 @@
 - **Aspectos que debo fortalecer o mejorar:** Un aspecto que debo mejorar es el manejo del tiempo, especialmente al distribuir mis esfuerzos entre varias tareas simultáneas. También considero importante trabajar en pedir ayuda de manera oportuna y no intentar resolver todos los problemas por mi cuenta.
 
 ### Nombre del integrante 4: YAYA GARCÍA JHOAN SEBASTÍAN 
-- **Rol que me gustaría desempeñar en un equipo de software:** Me gustaría ser quien se enfoca en pruebas y calidad en el proyecto
+- **Rol que me gustaría desempeñar en un equipo de software:** Me gustaría no asumir un rol
 - **Fortalezas personales que aporto al equipo:** Trabajo bien en equipo, cumplo mis tareas y soy crítico con mi trabajo
 - **Aspectos que debo fortalecer o mejorar:** Debo mejorar mi manejo de tiempo, organización y también en el apartado de técnica y herramientas de desarrollo.
 
