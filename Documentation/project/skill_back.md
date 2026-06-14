@@ -72,7 +72,7 @@ Para contar lineas de una funcion puedes leer el archivo directamente.
 | 2.9 | SHOULD | Funciones ordenadas: la que no depende de nada va arriba, la que depende va abajo | Revisar orden de funciones en cada archivo |
 | 2.10 | SHOULD | Principio KISS (la solucion mas simple posible) | Revisar si hay sobre-ingenieria innecesaria |
 | 2.11 | SHOULD | Principio SOLID: cada clase tiene una sola responsabilidad (SRP) | Verificar que controllers no tengan logica de negocio y services no hagan HTTP |
-| 2.12 | SHOULD | DRY: sin bloques de codigo duplicados entre archivos del mismo tipo | Comparar implementaciones similares entre modulos |
+| 2.12 | SHOULD | DRY: sin duplicación relevante de lógica de negocio entre archivos del mismo tipo | Comparar implementaciones similares entre modulos |
 
 ### SECCION 3 — Arquitectura en capas
 
