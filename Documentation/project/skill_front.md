@@ -87,11 +87,11 @@ Get-Content src\stores\authStore.js
 | 3.1 | MUST | Las vistas (`views/`) no importan directamente de `services/` | Buscar imports de services dentro de views/ |
 | 3.2 | MUST | Solo los stores importan de `services/` | Buscar imports desde `services/` en views/, components/ y pages/; solo deben aparecer en stores/ |
 | 3.3 | MUST | Los stores usan `defineStore` de Pinia (no estado global manual) | Verificar uso de `defineStore` en cada archivo de stores/ |
-| 3.4 | MUST | El router usa guardias de navegacion para rutas protegidas (`beforeEach`) | Verificar existencia de `router.beforeEach` en router/index.js |
-| 3.5 | MUST | Existe un unico cliente HTTP centralizado en `services/` que configura baseURL, headers e interceptores | Verificar que no haya llamadas `axios.create` ni `fetch` con baseURL fuera del cliente centralizado |
-| 3.6 | MUST | Los tipos e interfaces estan en `types/` y no definidos inline en los componentes | Buscar `interface` o `type` fuera de types/ |
-| 3.7 | MUST | Las constantes globales reutilizables estan en `types/` o en una carpeta `constants/`, no definidas inline en componentes | Buscar arrays u objetos de constantes definidos dentro de archivos .vue o stores |
-| 3.8 | SHOULD | Los componentes en `components/` son reutilizables y no contienen logica de negocio ni acceden a stores de dominio | Revisar imports y logica dentro de cada archivo en components/ |
+| 3.4 | SHOULD | Si existen rutas protegidas, se implementan mediante guardias de navegacion centralizadas (`beforeEach`) | Verificar existencia de `router.beforeEach` en router/index.js si hay rutas con meta de autenticacion |
+| 3.5 | MUST | Las llamadas HTTP utilizan un cliente centralizado compartido. No existen configuraciones duplicadas de Axios o fetch | Verificar que no haya llamadas `axios.create` ni `fetch` con baseURL fuera del cliente centralizado |
+| 3.6 | MUST | Los tipos e interfaces compartidos entre multiples archivos estan en `types/`. Se permiten tipos locales definidos inline cuando solo se usan dentro del archivo | Buscar `interface` o `type` fuera de types/ y verificar si se reutilizan en otros archivos |
+| 3.7 | MUST | Las constantes reutilizadas en multiples archivos estan centralizadas en `types/` o `constants/`. Se permiten constantes locales cuando solo se usan dentro del archivo | Buscar arrays u objetos de constantes definidos dentro de archivos .vue o stores y verificar si se repiten en otros archivos |
+| 3.8 | SHOULD | Los componentes en `components/` no contienen logica de negocio ni acceden directamente a stores de dominio | Revisar imports y logica dentro de cada archivo en components/ |
 | 3.9 | SHOULD | El cliente HTTP centralizado tiene interceptor de respuesta que maneja errores de autenticacion (401) | Verificar `interceptors.response` en el cliente HTTP |
 | 3.10 | SHOULD | El almacenamiento local (`localStorage`, `sessionStorage`) se usa solo dentro de stores/, no en vistas ni servicios | Buscar `localStorage` y `sessionStorage` fuera de stores/ |
 
@@ -111,7 +111,7 @@ Get-Content src\stores\authStore.js
 |---|-----------|----------|-----------------|
 | 5.1 | MUST | Existe `vite.config.ts` en la raiz | Verificar existencia |
 | 5.2 | MUST | Existe `tsconfig.json` en la raiz | Verificar existencia |
-| 5.3 | MUST | Existe `tailwind.config.js` en la raiz | Verificar existencia |
+| 5.3 | MUST | Tailwind CSS esta correctamente configurado para la version utilizada (v3: `tailwind.config.js` en raiz; v4: directiva `@import "tailwindcss"` en el CSS principal) | Verificar segun version: existencia de `tailwind.config.js` o directiva en CSS |
 | 5.4 | MUST | `package.json` incluye las dependencias principales: vue, pinia, vue-router, axios, lucide-vue-next | Leer package.json y verificar dependencies |
 | 5.5 | SHOULD | Existe `.env.example` o `.env` con `VITE_API_URL` o similar para la URL del backend | Verificar existencia |
 | 5.6 | SHOULD | El `baseURL` del cliente HTTP usa variable de entorno (`import.meta.env.VITE_*`) en lugar de estar hardcodeado | Verificar el cliente HTTP centralizado en services/ |
