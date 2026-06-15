@@ -66,13 +66,12 @@ Para contar lineas de una funcion puedes leer el archivo directamente.
 | 2.3 | MUST | Sin bloques switch (no existen en Python, pero si cadenas if/elif largas de mas de 3 ramas) | Buscar cadenas elif con mas de 3 ramas |
 | 2.4 | MUST | Sin ifs o fors anidados (maximo 2 niveles de sangria dentro de una funcion) | Revisar profundidad de sangria en funciones |
 | 2.5 | MUST | Funciones con maximo 3 argumentos | Contar parametros en cada `def` |
-| 2.6 | MUST | Funciones de maximo 20 lineas | Contar lineas por funcion |
+| 2.6 | MUST | Funciones de maximo 30 lineas | Contar lineas por funcion |
 | 2.7 | MUST | Cada funcion hace una sola cosa (sin multiples niveles de abstraccion mezclados) | Revisar si hay funciones que hacen IO, logica y formato a la vez |
-| 2.8 | MUST | Un bloque if/while contiene solo una llamada a funcion (sin logica compleja dentro) | Revisar bloques if/while |
-| 2.9 | SHOULD | Funciones ordenadas: la que no depende de nada va arriba, la que depende va abajo | Revisar orden de funciones en cada archivo |
-| 2.10 | SHOULD | Principio KISS (la solucion mas simple posible) | Revisar si hay sobre-ingenieria innecesaria |
-| 2.11 | SHOULD | Principio SOLID: cada clase tiene una sola responsabilidad (SRP) | Verificar que controllers no tengan logica de negocio y services no hagan HTTP |
-| 2.12 | SHOULD | DRY: sin duplicación relevante de lógica de negocio entre archivos del mismo tipo | Comparar implementaciones similares entre modulos |
+| 2.8 | SHOULD | Funciones ordenadas: la que no depende de nada va arriba, la que depende va abajo | Revisar orden de funciones en cada archivo |
+| 2.9 | SHOULD | Principio KISS (la solucion mas simple posible) | Revisar si hay sobre-ingenieria innecesaria |
+| 2.10 | SHOULD | Principio SOLID: cada clase tiene una sola responsabilidad (SRP) | Verificar que controllers no tengan logica de negocio y services no hagan HTTP |
+| 2.11 | SHOULD | DRY: sin duplicación relevante de lógica de negocio entre archivos del mismo tipo | Comparar implementaciones similares entre modulos |
 
 ### SECCION 3 — Arquitectura en capas
 
