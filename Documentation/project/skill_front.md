@@ -73,7 +73,7 @@ Get-Content src\stores\authStore.js
 | 2.2 | MUST | Sin bloques try/catch en los stores o services | Buscar `try {` y `catch` en stores/ y services/ |
 | 2.3 | MUST | Sin ifs o ternarios anidados de mas de 2 niveles | Revisar profundidad de condiciones en funciones |
 | 2.4 | MUST | Funciones con maximo 3 argumentos | Contar parametros en cada funcion |
-| 2.5 | MUST | Funciones de maximo 20 lineas | Contar lineas por funcion en script setup y stores |
+| 2.5 | MUST | Funciones de maximo 30 lineas | Contar lineas por funcion en script setup y stores |
 | 2.6 | MUST | Cada funcion hace una sola cosa | Verificar que funciones de validacion no tambien hagan submit, etc. |
 | 2.7 | MUST | Sin JSDoc (`/** */`) en el codigo | Buscar bloques `/**` en services y stores |
 | 2.8 | SHOULD | Principio KISS: sin sobre-ingenieria para casos simples | Revisar si hay abstracciones innecesarias |
