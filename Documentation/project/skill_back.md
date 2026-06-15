@@ -68,7 +68,7 @@ Para contar lineas de una funcion puedes leer el archivo directamente.
 | 2.5 | MUST | Funciones con maximo 3 argumentos | Contar parametros en cada `def` |
 | 2.6 | MUST | Funciones de maximo 20 lineas | Contar lineas por funcion |
 | 2.7 | MUST | Cada funcion hace una sola cosa (sin multiples niveles de abstraccion mezclados) | Revisar si hay funciones que hacen IO, logica y formato a la vez |
-| 2.8 | MUST | Un bloque if/while contiene solo una llamada a funcion (sin logica compleja dentro) | Revisar bloques if/while |
+| 2.8 | MUST | Las condiciones son simples y legibles | Revisar bloques if/while |
 | 2.9 | SHOULD | Funciones ordenadas: la que no depende de nada va arriba, la que depende va abajo | Revisar orden de funciones en cada archivo |
 | 2.10 | SHOULD | Principio KISS (la solucion mas simple posible) | Revisar si hay sobre-ingenieria innecesaria |
 | 2.11 | SHOULD | Principio SOLID: cada clase tiene una sola responsabilidad (SRP) | Verificar que controllers no tengan logica de negocio y services no hagan HTTP |
