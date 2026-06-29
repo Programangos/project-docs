@@ -20,6 +20,11 @@ A diferencia de los portales institucionales tradicionales, SISA no se enfoca pr
 El sistema incorpora un modelo colaborativo basado en experiencias reales, permitiendo calcular métricas como tiempos promedio de trámites, implementar un sistema de recompensas con títulos y reconocimientos personalizados, y fomentar la participación activa. Además, integra un **mapa interactivo del campus**, donde los estudiantes pueden consultar información contextualizada de los edificios.
 
 ---
+## 🌐 Página Desplegada
+
+> **🔗 La aplicación está disponible en: [https://sisa-unal.up.railway.app/](https://sisa-unal.up.railway.app/)**
+
+---
 
 ## 🖼 Logo del Proyecto
 
